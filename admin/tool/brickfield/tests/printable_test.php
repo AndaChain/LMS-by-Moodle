@@ -101,6 +101,10 @@ class printable_test extends \advanced_testcase {
         $object->set_filter($filter);
         $output = $object->get_output();
         $this->assertStringContainsString('<i class="icon fa fa-tachometer fa-fw "  title="Total activities" '.
+<<<<<<< HEAD
             'role="img" aria-label="Total activities">', $output);
+=======
+            'aria-label="Total activities">', $output);
+>>>>>>> 7d5343e0dc16dcd9d110b3f353cfd8fc8c7755b0
     }
 }

@@ -378,10 +378,13 @@ class core_course_management_renderer extends plugin_renderer_base {
         if (!$hasitems) {
             return '';
         }
+<<<<<<< HEAD
 
         // If the action menu has items, add the menubar role to the main element containing it.
         $menu->attributes['role'] = 'menubar';
 
+=======
+>>>>>>> 7d5343e0dc16dcd9d110b3f353cfd8fc8c7755b0
         return $this->render($menu);
     }
 

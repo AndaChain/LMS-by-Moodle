@@ -4237,6 +4237,10 @@ class action_menu implements renderable, templatable {
         $this->attributesprimary = array(
             'id' => 'action-menu-'.$this->instance.'-menubar',
             'class' => 'menubar',
+<<<<<<< HEAD
+=======
+            'role' => 'menubar'
+>>>>>>> 7d5343e0dc16dcd9d110b3f353cfd8fc8c7755b0
         );
         $this->attributessecondary = array(
             'id' => 'action-menu-'.$this->instance.'-menu',

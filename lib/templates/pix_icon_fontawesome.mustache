@@ -43,7 +43,11 @@
 
 }}
 {{^unmappedIcon}}
+<<<<<<< HEAD
 <i class="icon fa {{key}} fa-fw {{extraclasses}}" {{#aria-hidden}}aria-hidden="true"{{/aria-hidden}} {{#title}}title="{{title}}"{{/title}} {{#alt}}role="img" aria-label="{{alt}}"{{/alt}}></i>
+=======
+<i class="icon fa {{key}} fa-fw {{extraclasses}}" {{#aria-hidden}}aria-hidden="true"{{/aria-hidden}} {{#title}}title="{{title}}"{{/title}} {{#alt}}aria-label="{{alt}}"{{/alt}}></i>
+>>>>>>> 7d5343e0dc16dcd9d110b3f353cfd8fc8c7755b0
 {{/unmappedIcon}}
 {{#unmappedIcon}}
 {{! We cannot include the pix_icon template directly here because we don't have all the mustache helpers loaded. }}
